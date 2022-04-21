@@ -1,7 +1,6 @@
 var imgList=[
-    "FOr9VNxVUAA96WB.jpg",
     "S__60014602_0.jpg",
-    "",
+    "S__60014604_0.jpg",
     ""
 ];
 

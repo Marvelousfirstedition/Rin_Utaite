@@ -50,3 +50,10 @@ button{
     font-family: serif;
 }
 
+.slider .slider-inner li.show{
+    opacity: 1;
+}
+
+.slider .nav li.current{
+    background: #aaa
+}

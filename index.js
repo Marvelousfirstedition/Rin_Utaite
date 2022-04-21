@@ -1,28 +1,22 @@
-const picArray=[
-    {src: 'FOr9VNxVUAA96WB.jpg'}
+var imgList=[
+    "",
+    "",
+    "",
+    ""
 ];
 
-let counter=0;
-
-if(counter>picArray.length){
-    document.getElementById('pics').src=picArray[counter].src;
-    document.getElementById('pic-title').innerHTML=picArray[counter].title;
-    counter++;
-}else{
-    document.getElementById('pics').src=picArray[0].src;
-    document.getElementById('pic-title').innerHTML=picArray[0].title;
-    counter=1;
+for(var i=0; i<imgList.length; i++){
+    var slide=document.createElement("li");
+    slide.innerHTML="<img src='"+imgList[i]+"'>";
+    document.getElementsByClassName("slider-inner")[0].appendChild(slide);
+    var nav =document.createElement("li");
+    nav.setAttribute("data-nav-index", i);
+    document.getElementsByClassName("nav")[0].appendChild(nav);
 }
 
-let playingID=0;
-
-function slideshow(){
-    if(playingID==0){
-        document.getElementById('playButton').innerHTML='STOP';
-        playingID=setInterval(changePicture, 5000);
-    }else{
-        document.getElementById('playButton').innerHTML='START';
-        clearInterval(playingID);
-        playingID=0;
-    }
-}
+var length=imgList.length -1;
+var imageSlide=document.getElementsByClassName("slider-inner")[0].getElementsByTagName("li");
+var dotNavigation=document.getElementsByClassName("nav")[0].getElementsByTagName("li");
+var nowIndex=0;
+imageSlide[nowIndex].classList.add("show");
+dotNavigation[nowIndex].classList.add("current");

@@ -13,13 +13,15 @@ a{
 .Photograph-wrapper{
     background-image: url(S__60014603_0.jpg);
     background-size: cover;
-    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 1170px;
 }
 .video-wrappper{
     display: inline-block;
 }
 .icon img{
     float: right;
-    width: 500px;
-    height: 700px;
+    width: 800px;
+    height: 800px;
 }

@@ -10,11 +10,6 @@ a{
 .clear{
     clear:left
 }
-.container{
-    width: 1170px;
-    padding: 0 10px;
-    margin: 0 auto;
-}
 .Photograph-wrapper{
     background-image: url(S__60014603_0.jpg);
     background-size: cover;

@@ -13,9 +13,8 @@ a{
 .Photograph-wrapper{
     background-image: url(S__60014603_0.jpg);
     background-size: cover;
-    margin: 0 auto;
-    padding: 0 10px;
-    width: 1170px;
+    width: 100%;
+    hight: 800px;
 }
 .video-wrappper{
     display: inline-block;

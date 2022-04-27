@@ -10,10 +10,12 @@ a{
 .clear{
     clear:left
 }
-.Photograph-wrapper img{
+.Photograph-wrapper{
+    background-image: url(S__60014603_0.jpg);
     background-size: cover;
+    height: 768px;
     width: 100%;
-    hight: 800px;
+    margin: 0;
 }
 .video-wrappper{
     display: inline-block;

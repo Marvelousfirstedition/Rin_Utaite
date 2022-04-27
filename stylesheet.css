@@ -10,7 +10,7 @@ a{
 .clear{
     clear:left
 }
-.Photograph-wrapper{
+.Photograph-wrapper img{
     background-size: cover;
     width: 100%;
     hight: 800px;

@@ -46,6 +46,7 @@ a{
 }
 .Introduction{
     background-color:limegreen;
+    height: 1000px;
 }
 .Introduction-logo{
     font-family:sans-serif;
